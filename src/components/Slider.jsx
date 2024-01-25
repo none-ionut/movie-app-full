@@ -19,6 +19,7 @@ const Slider = ({ movies }) => {
       />
       <CardSlider title="Action Movies" data={getMoviesFromRange(40, 50)} />
       <CardSlider title="Epics" data={getMoviesFromRange(50, 60)} />
+      <h1>Afiseaza Sliderul</h1>;
     </div>
   );
 };
